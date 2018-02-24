@@ -65,7 +65,6 @@ namespace Instagram_Account_Creation_Tool
                         getInstaResponse = await Client.SendAsync(postInstaCheck);
 
                         /// <summary>Deserialze the JSON response from Instragram in to a Object</summary>
-                        var c = getInstaResponse.Content.ReadAsStringAsync().GetAwaiter().GetResult();
                         instagramResponse = JsonConvert.DeserializeObject<instagramRootObject>(await getInstaResponse.Content.ReadAsStringAsync());
 
                         if (instagramResponse.account_created)
