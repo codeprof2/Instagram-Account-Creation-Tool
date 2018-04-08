@@ -12,7 +12,7 @@ Or download the release build from the releases page.
 Sometimes instagram will block your IP generally if too many requests good or bad are made in a short period, the block is usually for a small time span but I have not tested enough to know if it becomes longer or even permanent I am not at fault if this happens to you.
 
 ## Updates
-I will keep this bot updated as much as I can.
+I lied I cba to update this just use it as reference or to learn :)
 
 ## Issues
 Please either create an issue on this git or contact me on discord: Sloth#4064
